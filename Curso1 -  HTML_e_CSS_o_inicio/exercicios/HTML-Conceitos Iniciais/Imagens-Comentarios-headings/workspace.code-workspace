@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\Projetos-Docker\\teste"
+		},
+		{
+			"path": "..\\..\\..\\Rocktseat\\Discover\\Guia Esdtelar de HTML\\starter-html"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML e CSS-Udemy"
+	}
+}
