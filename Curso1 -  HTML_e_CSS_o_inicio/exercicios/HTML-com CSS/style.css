@@ -88,6 +88,44 @@ h2 {
   background-color: rebeccapurple;
   padding: 20px;
   border: 3px solid blue;
-  width: 400px;
-  margin:  auto;
+  margin:50px;
+  width: 200px;
+  display: inline-block;
 }
+
+/*POSITIONS*/
+
+.div-position{
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}
+/*STATIC*/
+.static{
+  position:static;
+}
+.relative{
+  position: relative;
+  background-color: blue;
+  top: 100px;
+  left: 50px;
+  }
+  .absolute{
+    position: absolute;
+    background-color: green;
+    right:0;
+    top: 0;
+  }
+  .mini-div{
+    height: 50px;
+    width: 50px;
+    top: 50px;
+    left: 10px;
+    background-color: white;
+  }
+/*RELATIVE*/
+/*FIXED*/
+/*ABSOLUTE*/
+/*STICKY*/
+
+
