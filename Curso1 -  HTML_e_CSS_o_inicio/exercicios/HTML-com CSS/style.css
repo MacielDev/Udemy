@@ -88,44 +88,57 @@ h2 {
   background-color: rebeccapurple;
   padding: 20px;
   border: 3px solid blue;
-  margin:50px;
+  margin: 50px;
   width: 200px;
   display: inline-block;
 }
 
 /*POSITIONS*/
 
-.div-position{
+.div-position {
   width: 200px;
   height: 200px;
   background-color: brown;
 }
 /*STATIC*/
-.static{
-  position:static;
+.static {
+  position: static;
 }
-.relative{
+/*RELATIVE*/
+.relative {
   position: relative;
   background-color: blue;
   top: 100px;
   left: 50px;
-  }
-  .absolute{
-    position: absolute;
-    background-color: green;
-    right:0;
-    top: 0;
-  }
-  .mini-div{
-    height: 50px;
-    width: 50px;
-    top: 50px;
-    left: 10px;
-    background-color: white;
-  }
-/*RELATIVE*/
-/*FIXED*/
+}
 /*ABSOLUTE*/
+.absolute {
+  position: absolute;
+  background-color: green;
+  right: 0;
+  top: 0;
+}
+.mini-div {
+  height: 50px;
+  width: 50px;
+  top: 50px;
+  left: 10px;
+  background-color: white;
+}
+/*FIXED*/
+.fixed {
+  position: fixed;
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 10px;
+  background-color: purple;
+}
 /*STICKY*/
-
-
+.sticky {
+  position:sticky;
+  height: 20px;
+  width: 20px;
+  top: 0px;
+  background-color:sandybrown;
+}
