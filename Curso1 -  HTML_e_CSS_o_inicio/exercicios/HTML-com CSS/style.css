@@ -1,93 +1,93 @@
 /*Geral*/
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
-h1{
-    color: red;
+h1 {
+  color: red;
 }
-p{
-    color:blue
+p {
+  color: blue;
 }
 
-h2{
-    color: green;
-    text-align: center;
-    font-size: 50px;
+h2 {
+  color: green;
+  text-align: center;
+  font-size: 50px;
 }
 
 /*Classes e Ids*/
-.p-texto{
-    color:grey;
+.p-texto {
+  color: grey;
 }
-#titulo-app{
-    color: purple;
-    font-size: 40px;
+#titulo-app {
+  color: purple;
+  font-size: 40px;
 }
 
 /*Cores no Css*/
-#cor_nome{
-    color: orange;
+#cor_nome {
+  color: orange;
 }
-#cor_hexa{
-    color: #88ff33;
+#cor_hexa {
+  color: #88ff33;
 }
-#cor_rgba{
-    color: rgba(255,165,0);
+#cor_rgba {
+  color: rgba(255, 165, 0);
 }
 
 /*Aula sobre background*/
-.div-background{
-    background-image: url('img/exemplo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-
-
+.div-background {
+  background-image: url("img/exemplo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
 }
-.div-background h1{
-    text-align: center;
-    color: #fff;
-    background-color:rgba(0,0,0,0.5);
+.div-background h1 {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*Fontes*/
 
-.family{
-    color: #000;
-    font-size: 40px;
+.family {
+  color: #000;
+  font-size: 40px;
 }
-.family.serif{
-    color: green;
+.family.serif {
+  color: green;
 }
-.serif{
-    font-family:serif;
+.serif {
+  font-family: serif;
 }
-.sans-serif{
-    font-family: sans-serif;
+.sans-serif {
+  font-family: sans-serif;
 }
-.monospace{
-    font-family: monospace;
+.monospace {
+  font-family: monospace;
 }
-.italic{
-    font-style: italic;
+.italic {
+  font-style: italic;
 }
-.oblique{
-    font-style: oblique;
+.oblique {
+  font-style: oblique;
 }
-.bold{
-    font-weight: bold;
+.bold {
+  font-weight: bold;
 }
-.variants{
-    font-variant: small-caps;
+.variants {
+  font-variant: small-caps;
 }
- 
+
 /*Box Model*/
-.paragrafo-box{ 
-    color: #fff;
-    margin: 0;
-    
+.paragrafo-box {
+  color: #fff;
+  margin: 0;
 }
-.boxmodel{
-    background-color: rebeccapurple;
-   padding: 20px;
+.boxmodel {
+  background-color: rebeccapurple;
+  padding: 20px;
+  border: 3px solid blue;
+  width: 400px;
+  margin:  auto;
 }
