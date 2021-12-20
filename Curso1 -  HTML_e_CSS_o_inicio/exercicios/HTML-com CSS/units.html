@@ -1,23 +1,44 @@
 <!DOCTYPE html>
-<html lang="<i class="fa fa-paint-brush" aria-hidden="true"></i>">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unidades de Medidas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div>
-        <p>Medidas em pixel</p>
-    </div>
-    <div>
-        <p>Medidas em %</p>
-    </div>
-    <div>
-        <p>Medidas em em</p>
-    </div>
-    <div>
-        <p>Medidas em rem</p>
-    </div>
+    <main class="container-units">
+        <!--Medidas em  Pixels-->
+        <div>
+            <p>Medidas em pixel</p>
+            <div class="pixel-1"></div>
+            <div class="pixel-2"></div>
+        </div>
+        <!--Medidas em  %-->
+        <div class="pai-porcentagem">
+            <p>Medidas em %</p>
+            <div class="porcentagem-1">
+                <div class="porcentagem-2"></div>
+            </div>
+        </div>
+        <!--Medidas aplicadas em 'em'-->
+        <div class="pai-em">
+            <p>Medidas em em</p>
+            <div class="em-um_quarto"></div>
+            <div class="em-meio"></div>
+            <div class="em-1"></div>
+            <div class="em-2"></div>
+            <div class="em-3"></div>
+        </div>
+        <!--Medidas aplicadas em 'rem'-->
+        <div class="modulo_utilizando_rem">
+            <p class="modulo-paragrafo_utilizando_em">Medidas em rem</p>
+            <div class="div_interna_utilizando_em"></div>
+        </div>
+    </main>
 </body>
+
 </html>
