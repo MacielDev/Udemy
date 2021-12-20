@@ -165,3 +165,37 @@ h2 {
 .clear{
   clear: both;
 }
+/*TRABALHANDO UNIDADES DE MEDIDAS*/
+.container-units{
+  margin: 10px 20px;
+}
+/*Trabalhando medidas em pixels*/
+.pixel-1{
+  display: inline-block;
+  background-color:greenyellow;
+  width: 100px;
+  height: 100px; 
+}
+.pixel-2{
+  display: inline-block;
+  background-color:red;
+  width: 100px;
+  height: 100px; 
+}
+.pai-porcentagem{
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  
+}
+.porcentagem-1{
+  width: 50%;
+  height: 50%;
+  background-color: chocolate;
+}
+.porcentagem-2{
+  width: 50%;
+  height: 50%;
+  background-color: yellow;
+}
+
