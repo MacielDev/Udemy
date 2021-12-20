@@ -1,4 +1,7 @@
 /*Geral*/
+html{
+  font-size: 16px;
+}
 body {
   margin: 0;
 }
@@ -182,6 +185,7 @@ h2 {
   width: 100px;
   height: 100px; 
 }
+/*Trabalhando com as medidas em (%) */
 .pai-porcentagem{
   background-color: black;
   width: 500px;
@@ -199,3 +203,54 @@ h2 {
   background-color: yellow;
 }
 
+/*Trabalhando com as medidas em (em)*/
+.pai-em{
+  font-size: 100px;
+}
+/*trabalhando com valores em 'em' com multiplos entre 0 e 1*/
+.em-um_quarto{
+  width: 0.25em;
+  height: 0.25em;
+  background-color:blue;
+}
+.em-meio{
+  width: 0.5em;
+  height: 0.5em;
+  background-color:yellow;
+}
+/*trabalhando com multiplos maiores ou iguais a 1*/
+.em-1{
+width: 1em;
+height: 1em;
+background-color: violet;
+}
+.em-2{
+width: 2em;
+height: 2em;
+background-color: purple;
+}
+.em-3{
+width: 3em;
+height: 3em;
+background-color: salmon;
+}
+/*trabalhando com medidas em 'rem' */
+
+/*UTILIZANDO A IDEIA DE BOAS PRÁTICAS*/
+
+.modulo_utilizando_rem{
+  font-size: 20px;
+  width: 10rem; /*como a font-size do <html> (root) mede 16px , logo teremos uma largura de 10 vezes 16px = 160px*/
+
+  height: 20rem; /*como a font-size do <html> (root) mede 16px, logo teremos uma altura de 20 vezes 16px = 320px*/
+
+  background-color: cornflowerblue;
+}
+.modulo-paragrafo_utilizando_em{
+font-size: 0.5em; /*A font-size de <p> será de  0.5 vezes 20px =10px , ou seja, metade do tamanho da fonte de referência do seu elemento pai <div>*/
+}
+.div_interna_utilizando_em{
+  width: 5em; /*a largura = 5 vezes 20px (tamanho da fonte do elemento pai)*/
+  height: 3em;/*a altura  = 3 vezes 20px (tamanho da fonte do elemento pai)*/
+  background-color: deeppink;
+}
