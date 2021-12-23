@@ -1,0 +1,1 @@
+window.alert('Eu sou uma mensagem incoveniente e não devo ser utilizada')
