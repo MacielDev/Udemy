@@ -6,6 +6,8 @@ console.log(5 - 12) // SUBTRAÇÃO
 console.log(4 * 4)  // MULTIPLICAÇÃO
 console.log(Math.round((5/3)))  // DIVISÃO
 console.log(23 % 2) // RESTO DA DIVISÃO
+console.log(4/0)
+
 
 /*tipo de dados que obtemos no resultado das operações*/
 
