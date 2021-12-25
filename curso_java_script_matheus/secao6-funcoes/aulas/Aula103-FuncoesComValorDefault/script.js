@@ -20,4 +20,3 @@ function calculaPotencia(base, exp){
 console.log(`O resultado da potencia é igual a ${calculaPotencia(3)}`)
 
 console.log(`O resultado da potencia é igual a ${calculaPotencia(4,3)}`)
-console.log('teste')
