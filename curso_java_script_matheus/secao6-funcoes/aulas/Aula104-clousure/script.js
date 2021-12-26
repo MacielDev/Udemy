@@ -1,0 +1,2 @@
+// exemplo de clousures de
+
