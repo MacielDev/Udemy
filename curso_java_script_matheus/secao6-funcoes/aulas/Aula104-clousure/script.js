@@ -4,11 +4,11 @@ function lembrarSoma (x) {
         return x + y;
     }
 }
-let soma1 = lembrarSoma(2)
-console.log(soma1(5))
+let soma3 = lembrarSoma(2)
+console.log(soma3(5))
 
-let soma2 = lembrarSoma(5)
-console.log(soma2(7))
+let soma4 = lembrarSoma(5)
+console.log(soma4(7))
 
 console.log("**********************************")
 console.log("******* Exemplo Contador *********")
@@ -22,7 +22,7 @@ console.log("******* Exemplo Contador *********")
         return somarContador
         
     }
-    let meuContador = contador(5)
-    meuContador()
-    meuContador()
-    meuContador()
+    let meucontador = contador(5)
+    meucontador()
+    meucontador()
+    meucontador()
