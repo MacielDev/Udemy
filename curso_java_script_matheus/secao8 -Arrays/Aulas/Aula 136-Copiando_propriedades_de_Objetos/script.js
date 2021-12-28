@@ -9,6 +9,8 @@ let adicionais = {
     rodasLigaLeve: "true"
 }
 
+console.log(carro)
+
 // Copiando as propriedades do objeto adicionais
 Object.assign(carro, adicionais)
 
