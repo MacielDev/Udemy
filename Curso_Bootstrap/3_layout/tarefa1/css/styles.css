@@ -1,0 +1,21 @@
+/*COL*/
+
+.col {
+    background-color: aqua;
+    border: solid 2px #ddd;
+    height: 100%;
+}
+
+.row {
+    border: dashed 1px black;
+    height: 200px;
+    width: 100%;
+}
+
+.impar {
+    background-color: red;
+}
+
+.par {
+    background-color: purple;
+}

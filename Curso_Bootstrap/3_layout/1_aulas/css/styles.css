@@ -140,3 +140,18 @@ h1 {
     height: 50px;
     border: 2px dashed red;
 }
+
+
+/*gutters*/
+
+#gutter .row {
+    height: 200px;
+}
+
+#gutter .col-6 {
+    margin: auto;
+}
+
+#gutter p {
+    border: solid 2px green;
+}
