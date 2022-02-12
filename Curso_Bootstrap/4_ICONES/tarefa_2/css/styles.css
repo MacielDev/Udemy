@@ -1,0 +1,11 @@
+.bi {
+    font-size: 3em;
+}
+
+.bi.bi-basket2 {
+    color: rgb(73, 73, 240);
+}
+
+.bi.bi-calculator {
+    color: rgb(138, 92, 182);
+}
